@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+#global {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.cartes {
+    background-color: red;
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 90px;
+    margin-bottom: 10px;
+    border: solid 1px black;
+    box-shadow: black 1px 1px 1px;
+    text-align: center;
+}
