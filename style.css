@@ -1,19 +1,40 @@
 h1 {
+    color: white;
+    border: solid 3px white;
+    text-shadow: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 25%;
     text-align: center;
+}
+body {
+    background-color: brown;
+    font-family: Verdana, sans-serif;
 }
 #global {
     margin-left: 15%;
     margin-right: 15%;
 }
 .cartes {
-    background-color: red;
-    width: 150px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     display: inline-block;
-    border-radius: 10px;
-    margin-right: 90px;
-    margin-bottom: 10px;
-    border: solid 1px black;
+    border: solid 2px black;
     box-shadow: black 1px 1px 1px;
+    margin: 3px;
+}
+#resultat {
+    border: dashed 3px white;
+    height: 200px;
+    color: white;
     text-align: center;
+    padding: 250px;
+    font-size: 25px;
+}
+#rejouer {
+    width: 150px;
+    background-color: white;
+    color: brown;
+    border-radius: 10px;
+    font-size: 25px;
 }
