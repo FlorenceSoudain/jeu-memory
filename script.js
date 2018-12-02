@@ -98,7 +98,7 @@ function rejouer() {
     document.getElementById('resultat').style.display = "block";
     document.getElementById('temps').innerHTML = "Vous avez terminé en " + minutes + " minutes et " + secondes + " secondes.";
 
-    //when the user click on the button "rejouer", the window relaod
+    //when the user click on the button "rejouer", the window reload
     document.getElementById('rejouer').addEventListener('click', function () {
         window.location.reload();
     });
@@ -120,3 +120,12 @@ function chrono(){
 }
 chrono();
 
+//jasmine
+/**var fonction = function (f) {
+    if (f == 1)
+    {
+        return "Test Jasmine";
+    }
+};
+
+export { fonction }**/
